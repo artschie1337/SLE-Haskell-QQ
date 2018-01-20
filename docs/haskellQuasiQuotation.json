@@ -1,6 +1,6 @@
 {
   "name": "HaskellQuasiQuotation",
-  "baseuri": "https://github.com/softlang/metalib/blob/master/haskell/fsml/",
+  "baseuri": "https://github.com/artschie1337/SLE-Haskell-QQ/blob/master/haskell/",
   "headline": "Use of quasi-quotation and Template Haskell",
   "sections": [
     {
@@ -50,9 +50,9 @@
       "artifacts": [
         {
           "type": "some",
-          "link": "src/Language/FSML/Lexer.hs",
+          "link": "Language/FSML/Lexer.hs",
           "from": 13,
-          "to": 43
+          "to": 41
         }
       ]
     },

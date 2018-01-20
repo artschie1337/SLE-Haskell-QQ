@@ -40,8 +40,8 @@ tests pos neg =
 
 main = do
   -- Read input from file
-  pos <- readFile "../sample.fsml"
-  neg <- readFile "../tests/resolutionNotOk.fsml"
+  pos <- readFile "./data/sample.fsml"
+  neg <- readFile "./data/resolutionNotOk.fsml"
   -- Run tests
   counts <- runTestTT $ tests pos neg
   if (errors counts > 0 || failures counts > 0)

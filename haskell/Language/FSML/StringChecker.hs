@@ -1,4 +1,3 @@
--- BEGIN ...
 module Language.FSML.StringChecker ( check ) where
 import Language.FSML.Syntax
 import Data.List (concatMap, nub)

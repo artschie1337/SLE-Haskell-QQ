@@ -18,8 +18,7 @@
       ],
       "concepts": [
         "Algebraic data type",
-        "Record type",
-        "Lifting"
+        "Record type"
       ],
       "artifacts": [
         {
@@ -79,9 +78,9 @@
       "artifacts": [
         {
           "type": "some",
-          "link": "Language/FSML/MonadicParser.hs",
-          "from": 8,
-          "to": 29
+          "link": "Language/FSML/ApplicativeParser.hs",
+          "from": 11,
+          "to": 31
         }
       ]
     },
@@ -128,9 +127,9 @@
       ],
       "artifacts": [
         {
-          "type": "all",
+          "type": "some",
           "link": "Language/FSML/StringChecker.hs",
-          "from": 9,
+          "from": 8,
           "to": 68
         }
       ]
@@ -139,55 +138,7 @@
       "features": [
         "Piggyback"
       ],
-      "headline": "By generating alternatives for the state data type distinct state ids are guaranteed",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-      ],
-      "concepts": [
-      ],
-      "artifacts": [
-        {
-          "type": "some",
-          "link": "src/Language/FSML/QuasiQuoter.hs",
-          "from": 42,
-          "to": 50
-        }
-      ]
-    },
-    {
-      "features": [
-        "Staging"
-      ],
-      "headline": "Transitioning between states by folding over the generated event functions",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-      ],
-      "concepts": [
-      ],
-      "artifacts": [
-        {
-          "type": "some",
-          "link": "app/Main.hs",
-          "from": 24,
-          "to": 25
-        }
-      ]
-    },
-    {
-      "features": [
-        "Staging"
-      ],
-      "headline": "Transitions are translated to Haskell AST",
+      "headline": "Convert value to the same value as `Q Exp` representation",
       "perspectives": [
         "Implementation"
       ],
@@ -198,14 +149,14 @@
         "Template Haskell"
       ],
       "concepts": [
-        "Quasi-quotation"
+        "Lifting"
       ],
       "artifacts": [
         {
           "type": "some",
-          "link": "src/Language/FSML/QuasiQuoter.hs",
-          "from": 52,
-          "to": 75
+          "link": "Language/FSML/QuasiQuoter.hs",
+          "from": 19,
+          "to": 24
         }
       ]
     }

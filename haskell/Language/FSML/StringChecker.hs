@@ -6,7 +6,6 @@ import Data.List ((\\))
 import Data.Set (fromList, toList, union)
 import qualified Data.Set as S
 
--- END ...
 check :: Fsm -> [String]
 check fsm = concatMap ($ fsm) [
     distinctStateIds,
@@ -20,8 +19,7 @@ distinctStateIds (Fsm ss) = map ("Multiple declarations of state " ++) doubles
   where
     doubles = (\\) sids (nub sids)
     sids = [ sid | (State _ sid _) <- ss ]
--- ...
--- BEGIN ...
+
 singleInitialState :: Fsm -> [String]
 singleInitialState (Fsm ss) =
     if length inis == 0 then ["Missing initial state"]
@@ -45,7 +43,7 @@ deterministicTransitions (Fsm ss) =
         map (\event ->
                "Multiple transitions for event " ++ event ++
                " in state " ++ source) doubles
-      where 
+      where
         events = [ event | (Transition event _ _) <- ts ]
         doubles = (\\) events (nub events)
 
@@ -68,4 +66,3 @@ reachableStates (Fsm ss) =
               (State _ source ts) <- ss,
               elem source sids,
               (Transition _ _ target) <- ts ]
--- END ...

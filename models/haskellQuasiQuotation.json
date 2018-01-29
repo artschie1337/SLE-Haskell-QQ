@@ -128,10 +128,10 @@
       ],
       "artifacts": [
         {
-          "type": "some",
-          "link": "src/Language/FSML/Checker.hs",
-          "from": 8,
-          "to": 46
+          "type": "all",
+          "link": "Language/FSML/StringChecker.hs",
+          "from": 9,
+          "to": 68
         }
       ]
     },

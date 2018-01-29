@@ -4,30 +4,6 @@
   "headline": "Use of quasi-quotation and Template Haskell",
   "sections": [
     {
-      "features": [],
-      "headline": "FSM denoted in Quasi-Quotation",
-      "perspectives": [
-        "Data"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-        "Template Haskell"
-      ],
-      "concepts": [
-        "Quasi-quotation"
-      ],
-      "artifacts": [
-        {
-          "type": "some",
-          "link": "Language/FSML/QQ/Sample.hs",
-          "from": 9,
-          "to": 24
-        }
-      ]
-    },
-    {
       "features": [
         "AST"
       ],
@@ -42,14 +18,15 @@
       ],
       "concepts": [
         "Algebraic data type",
-        "Record type"
+        "Record type",
+        "Lifting"
       ],
       "artifacts": [
         {
           "type": "some",
           "link": "Language/FSML/Syntax.hs",
           "from": 6,
-          "to": 25
+          "to": 30
         }
       ]
     },
@@ -96,14 +73,15 @@
         "Parsec"
       ],
       "concepts": [
-        "Parser combinator"
+        "Parser combinator",
+        "Monads"
       ],
       "artifacts": [
         {
           "type": "some",
-          "link": "src/Language/FSML/Parser.hs",
-          "from": 28,
-          "to": 50
+          "link": "Language/FSML/MonadicParser.hs",
+          "from": 8,
+          "to": 29
         }
       ]
     },
@@ -127,9 +105,9 @@
       "artifacts": [
         {
           "type": "some",
-          "link": "app/Main.hs",
-          "from": 7,
-          "to": 22
+          "link": "Language/FSML/QQ/Sample.hs",
+          "from": 8,
+          "to": 24
         }
       ]
     },

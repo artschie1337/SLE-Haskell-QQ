@@ -1,6 +1,9 @@
 i = -i.:./lib/Haskell
 ghci = ghci Main.hs ${i}
 
+fsml:
+	ghci ${i} FsmlAcceptor.hs
+
 accept:
 	ghci ${i} Main.hs
 

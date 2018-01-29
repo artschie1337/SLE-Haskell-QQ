@@ -1,0 +1,57 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700";
+@import "_hljs";
+
+.perspective-column,
+.feature-column,
+.language-column,
+.technology-column,
+.concept-column {
+    .add-button {
+	visibility: hidden;
+    }
+    &:hover .add-button {
+	visibility: visible;
+    }
+}
+
+a[disabled]:hover {
+    color: #3273dc;
+}
+
+.section-card-header {
+    > .card-header-icon {
+	display: none;
+	&[disabled] {
+	    cursor: not-allowed;
+	    opacity: 0.5;
+	}
+    }
+    &:hover {
+	> .card-header-icon {
+	    display: flex;
+	}
+    }
+}
+
+.perspective {
+    &.tags.has-addons > .tag:not(:last-child) {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+    }
+    > .is-edit,
+    > .is-remove {
+	display: none;
+    }
+    &:hover {
+	&.tags.has-addons > .tag:not(:last-child) {
+	    border-bottom-right-radius: 0;
+	    border-top-right-radius: 0;
+	}
+	> .is-edit,
+	> .is-remove {
+	    display: inline-flex;
+	}
+    }
+}

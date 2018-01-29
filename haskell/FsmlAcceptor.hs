@@ -9,8 +9,7 @@ import System.Exit (exitSuccess, exitFailure)
 
 main :: IO ()
 main = do
-  [file] <- getArgs
-  text <- readFile file
+  text <- readFile "./data/sample.fsml"
   case parse (completeParser fsm >> return ()) "" text of
     (Right ()) -> exitSuccess
     _ -> exitFailure

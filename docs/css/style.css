@@ -1,0 +1,121 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import "https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700";
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8; }
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic; }
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold; }
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080; }
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14; }
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold; }
+
+.hljs-subst {
+  font-weight: normal; }
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold; }
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal; }
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926; }
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073; }
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3; }
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold; }
+
+.hljs-deletion {
+  background: #fdd; }
+
+.hljs-addition {
+  background: #dfd; }
+
+.hljs-emphasis {
+  font-style: italic; }
+
+.hljs-strong {
+  font-weight: bold; }
+
+.perspective-column .add-button,
+.feature-column .add-button,
+.language-column .add-button,
+.technology-column .add-button,
+.concept-column .add-button {
+  visibility: hidden; }
+
+.perspective-column:hover .add-button,
+.feature-column:hover .add-button,
+.language-column:hover .add-button,
+.technology-column:hover .add-button,
+.concept-column:hover .add-button {
+  visibility: visible; }
+
+a[disabled]:hover {
+  color: #3273dc; }
+
+.section-card-header > .card-header-icon {
+  display: none; }
+  .section-card-header > .card-header-icon[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+.section-card-header:hover > .card-header-icon {
+  display: flex; }
+
+.perspective.tags.has-addons > .tag:not(:last-child) {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px; }
+
+.perspective > .is-edit,
+.perspective > .is-remove {
+  display: none; }
+
+.perspective:hover.tags.has-addons > .tag:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+
+.perspective:hover > .is-edit,
+.perspective:hover > .is-remove {
+  display: inline-flex; }

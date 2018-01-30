@@ -1,164 +1,184 @@
 {
-  "name": "HaskellQuasiQuotation",
-  "baseuri": "https://github.com/artschie1337/SLE-Haskell-QQ/blob/master/haskell/",
-  "headline": "Use of quasi-quotation and Template Haskell",
-  "sections": [
-    {
-      "features": [
-        "AST"
-      ],
-      "headline": "AST implementation",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-      ],
-      "concepts": [
-        "Algebraic data type",
-        "Record type"
-      ],
-      "artifacts": [
+    "name": "HaskellQuasiQuotation",
+    "baseuri": "https://github.com/artschie1337/SLE-Haskell-QQ/blob/master/haskell/",
+    "headline": "Use of quasi-quotation and Template Haskell",
+    "sections": [
         {
-          "type": "some",
-          "link": "Language/FSML/Syntax.hs",
-          "from": 6,
-          "to": 30
-        }
-      ]
-    },
-    {
-      "features": [
-        "Scanning"
-      ],
-      "headline": "Lexer definition",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-        "Parsec"
-      ],
-      "concepts": [
-        "Lexer",
-        "Parser combinator"
-      ],
-      "artifacts": [
+            "features": [
+                "AST"
+            ],
+            "headline": "AST implementation",
+            "perspectives": [
+                "Implementation"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [],
+            "concepts": [
+                "Algebraic data type",
+                "Record type"
+            ],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/Syntax.hs",
+                    "from": 6,
+                    "to": 30
+                }
+            ]
+        },
         {
-          "type": "some",
-          "link": "Language/FSML/Lexer.hs",
-          "from": 13,
-          "to": 41
-        }
-      ]
-    },
-    {
-      "features": [
-        "Scanning",
-        "Text-to-AST"
-      ],
-      "headline": "Parser combinator",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-        "Parsec"
-      ],
-      "concepts": [
-        "Parser combinator",
-        "Monads"
-      ],
-      "artifacts": [
+            "features": [
+                "Scanning"
+            ],
+            "headline": "Lexer definition",
+            "perspectives": [
+                "Implementation"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [
+                "Parsec"
+            ],
+            "concepts": [
+                "Lexer",
+                "Parser combinator"
+            ],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/Lexer.hs",
+                    "from": 13,
+                    "to": 41
+                }
+            ]
+        },
         {
-          "type": "some",
-          "link": "Language/FSML/ApplicativeParser.hs",
-          "from": 11,
-          "to": 31
-        }
-      ]
-    },
-    {
-      "features": [
-        "AST"
-      ],
-      "headline": "Embedded turnstile object in Haskell declaration context",
-      "perspectives": [
-        "Data"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-        "Template Haskell"
-      ],
-      "concepts": [
-        "Quasi-quotation"
-      ],
-      "artifacts": [
+            "features": [
+                "Scanning",
+                "Text-to-AST"
+            ],
+            "headline": "Parser combinator",
+            "perspectives": [
+                "Implementation"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [
+                "Parsec"
+            ],
+            "concepts": [
+                "Parser combinator",
+                "Monads"
+            ],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/ApplicativeParser.hs",
+                    "from": 11,
+                    "to": 31
+                }
+            ]
+        },
         {
-          "type": "some",
-          "link": "Language/FSML/QQ/Sample.hs",
-          "from": 8,
-          "to": 24
-        }
-      ]
-    },
-    {
-      "features": [
-        "Analysis"
-      ],
-      "headline": "Constraint checking",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-      ],
-      "concepts": [
-      ],
-      "artifacts": [
+            "features": [
+                "AST"
+            ],
+            "headline": "Embedded turnstile object in Haskell declaration context",
+            "perspectives": [
+                "Data"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [
+                "Template Haskell"
+            ],
+            "concepts": [
+                "Quasi-quotation"
+            ],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/QQ/Sample.hs",
+                    "from": 8,
+                    "to": 24
+                }
+            ]
+        },
         {
-          "type": "some",
-          "link": "Language/FSML/StringChecker.hs",
-          "from": 8,
-          "to": 68
-        }
-      ]
-    },
-    {
-      "features": [
-        "Piggyback"
-      ],
-      "headline": "Convert value to the same value as `Q Exp` representation",
-      "perspectives": [
-        "Implementation"
-      ],
-      "languages": [
-        "Haskell"
-      ],
-      "technologies": [
-        "Template Haskell"
-      ],
-      "concepts": [
-        "Lifting"
-      ],
-      "artifacts": [
+            "features": [],
+            "headline": "CLI actions to run instantiated FSM in Haskell data",
+            "perspectives": [
+                "Capture"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [],
+            "concepts": [
+              "Algebraic data type",
+              "Record type"
+            ],
+            "artifacts": [
+              {
+                  "type": "some",
+                  "link": "output/cli.txt",
+                  "from": 1,
+                  "to": 3
+              }
+            ]
+        },
         {
-          "type": "some",
-          "link": "Language/FSML/QuasiQuoter.hs",
-          "from": 19,
-          "to": 24
+            "features": [
+                "Analysis"
+            ],
+            "headline": "Constraint checking",
+            "perspectives": [
+                "Implementation"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [],
+            "concepts": [],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/StringChecker.hs",
+                    "from": 8,
+                    "to": 67
+                }
+            ]
+        },
+        {
+            "features": [
+                "Piggyback"
+            ],
+            "headline": "Convert value to the same value as `Q Exp` representation",
+            "perspectives": [
+                "Implementation"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [
+                "Template Haskell"
+            ],
+            "concepts": [
+                "Lifting"
+            ],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/QuasiQuoter.hs",
+                    "from": 19,
+                    "to": 24
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

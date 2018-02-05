@@ -111,7 +111,7 @@
         },
         {
             "features": [],
-            "headline": "CLI actions to run instantiated FSM in Haskell data",
+            "headline": "CLI actions to generate embedded turnstile object in Haskell declaration context",
             "perspectives": [
                 "Capture"
             ],
@@ -156,9 +156,8 @@
         },
         {
             "features": [
-                "Piggyback"
             ],
-            "headline": "Convert value to the same value as `Q Exp` representation",
+            "headline": "Convert value representation",
             "perspectives": [
                 "Implementation"
             ],
@@ -177,6 +176,50 @@
                     "link": "Language/FSML/QuasiQuoter.hs",
                     "from": 19,
                     "to": 24
+                }
+            ]
+        },
+        {
+            "features": [
+              "Staging"
+            ],
+            "headline": "Sample Input and Output",
+            "perspectives": [
+                "Test"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [],
+            "concepts": [],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/SampleIO.hs",
+                    "from": 7,
+                    "to": 21
+                }
+            ]
+        },
+        {
+            "features": [
+              "Staging"
+            ],
+            "headline": "Generating transitions and runtime",
+            "perspectives": [
+                "Test"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [],
+            "concepts": [],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/Interpreter.hs",
+                    "from": 9,
+                    "to": 27
                 }
             ]
         }

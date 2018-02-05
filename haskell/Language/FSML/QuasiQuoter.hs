@@ -1,5 +1,5 @@
 -- BEGIN ...
-{-# LANGUAGE FlexibleContexts #-}
+{-# LANGUAGE TemplateHaskell #-}
 module Language.FSML.QuasiQuoter ( fsml ) where
 import Language.FSML.Syntax
 import Language.FSML.ApplicativeParser

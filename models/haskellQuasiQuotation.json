@@ -83,32 +83,7 @@
                 }
             ]
         },
-        {
-            "features": [
-                "AST"
-            ],
-            "headline": "Embedded turnstile object in Haskell expression context",
-            "perspectives": [
-                "Data"
-            ],
-            "languages": [
-                "Haskell"
-            ],
-            "technologies": [
-                "Template Haskell"
-            ],
-            "concepts": [
-                "Quasi-quotation"
-            ],
-            "artifacts": [
-                {
-                    "type": "some",
-                    "link": "Language/FSML/QQ/Sample.hs",
-                    "from": 8,
-                    "to": 24
-                }
-            ]
-        },
+
         {
             "features": [
                 "Analysis"
@@ -153,6 +128,30 @@
                     "type": "some",
                     "link": "Language/FSML/QuasiQuoter.hs",
                     "from": 19,
+                    "to": 24
+                }
+            ]
+        },
+        {
+            "features": [],
+            "headline": "Embedded turnstile object in Haskell expression context",
+            "perspectives": [
+                "Data"
+            ],
+            "languages": [
+                "Haskell"
+            ],
+            "technologies": [
+                "Template Haskell"
+            ],
+            "concepts": [
+                "Quasi-quotation"
+            ],
+            "artifacts": [
+                {
+                    "type": "some",
+                    "link": "Language/FSML/QQ/Sample.hs",
+                    "from": 8,
                     "to": 24
                 }
             ]

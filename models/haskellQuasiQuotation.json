@@ -83,7 +83,6 @@
                 }
             ]
         },
-
         {
             "features": [
                 "Analysis"
@@ -108,7 +107,7 @@
         },
         {
             "features": [
-              "Piggyback"
+                "Text-to-AST"
             ],
             "headline": "Convert value representation",
             "perspectives": [
@@ -121,7 +120,8 @@
                 "Template Haskell"
             ],
             "concepts": [
-                "Lifting"
+                "Lifting",
+                "Quotation"
             ],
             "artifacts": [
                 {
@@ -160,32 +160,33 @@
             "features": [],
             "headline": "CLI actions to get embedded turnstile object",
             "perspectives": [
-                "Capture"
+                "Capture",
+                "Data"
             ],
             "languages": [
                 "Haskell"
             ],
             "technologies": [],
             "concepts": [
-              "Algebraic data type",
-              "Record type"
+                "Algebraic data type",
+                "Record type"
             ],
             "artifacts": [
-              {
-                  "type": "some",
-                  "link": "output/cli.txt",
-                  "from": 1,
-                  "to": 3
-              }
+                {
+                    "type": "some",
+                    "link": "output/cli.txt",
+                    "from": 1,
+                    "to": 3
+                }
             ]
         },
         {
             "features": [
-              "Staging"
+                "Staging"
             ],
             "headline": "Sample Input and Output",
             "perspectives": [
-                "Test"
+                "Data"
             ],
             "languages": [
                 "Haskell"
@@ -202,12 +203,10 @@
             ]
         },
         {
-            "features": [
-              "Staging"
-            ],
+            "features": [],
             "headline": "Generating transitions and runtime by folding over generated event functions",
             "perspectives": [
-                "Test"
+                "Implementation"
             ],
             "languages": [
                 "Haskell"
@@ -224,9 +223,7 @@
             ]
         },
         {
-            "features": [
-              "Staging"
-            ],
+            "features": [],
             "headline": "Run FSM",
             "perspectives": [
                 "Test"

@@ -1,4 +1,13 @@
 # metalib
+
+## About
+New contribution for "Use of quasi-quotation and Template Haskell" in the metalib. The contribution is based on https://github.com/softlang/yas/tree/master/languages/FSML/Haskell.
+
+## TODO
+* Revise topics
+* Finalize order
+* Concrete Syntax??
+
 ## Build Instructions
 
 1. install JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html

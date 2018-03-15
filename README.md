@@ -1,12 +1,7 @@
 # metalib
 
 ## About
-New contribution for "Use of quasi-quotation and Template Haskell" in the metalib. The contribution is based on https://github.com/softlang/yas/tree/master/languages/FSML/Haskell.
-
-## TODO
-* Revise topics
-* Finalize order
-* Concrete Syntax??
+New contribution for "Use of quasi-quotation and Template Haskell" in the metalib. The contribution is based on https://github.com/softlang/yas/tree/master/languages/FSML/Haskell
 
 ## Build Instructions
 

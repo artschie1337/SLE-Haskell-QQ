@@ -1,5 +1,5 @@
 {
-    "name": "HaskellQuasiQuotation",
+    "name": "NewHaskellQuasiQuotation",
     "baseuri": "https://github.com/artschie1337/SLE-Haskell-QQ/blob/master/haskell/",
     "headline": "Use of quasi-quotation and Template Haskell",
     "sections": [
@@ -44,7 +44,8 @@
             ],
             "concepts": [
                 "Lexer",
-                "Parser combinator"
+                "Parser combinator",
+                "Monads"
             ],
             "artifacts": [
                 {
@@ -181,9 +182,7 @@
             ]
         },
         {
-            "features": [
-                "Staging"
-            ],
+            "features": [],
             "headline": "Sample Input and Output",
             "perspectives": [
                 "Data"
@@ -203,7 +202,7 @@
             ]
         },
         {
-            "features": [],
+            "features": ["Interpretation"],
             "headline": "Generating transitions and runtime by folding over generated event functions",
             "perspectives": [
                 "Implementation"

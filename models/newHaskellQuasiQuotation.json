@@ -1,6 +1,6 @@
 {
     "name": "NewHaskellQuasiQuotation",
-    "baseuri": "https://github.com/artschie1337/SLE-Haskell-QQ/blob/master/haskell/",
+    "baseuri": "https://github.com/artschie1337/SLE-Haskell-QQ/blob/master/newHaskell/",
     "headline": "Use of quasi-quotation and Template Haskell",
     "sections": [
         {
